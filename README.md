@@ -1,5 +1,8 @@
 # POROs!
 
-Create a new **Plain-old Ruby Object** in the `lib` folder, then issue a new PR.
+This will be a collection of ruby coding challenges from around the web.
+Just a place to hold some little codes :)
 
-You should tests if you want your changes to be merged.
+some websites used:
+
+www.codewars.com
