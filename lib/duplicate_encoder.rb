@@ -12,6 +12,14 @@
 #
 # "(( @" => "))(("
 
+#my solution
 def duplicate_encode(word)
    new_word = word.downcase.chars.map { |c| word.downcase.count(c) > 1 ? c = ')' : c = '(' }.join
+end
+
+#more solutions
+def duplicate_encode(word)
+  word.downcase.gsub(/./) do |char|
+    word.downcase.count(char.downcase) > 1 ? ")" : "("
+  end
 end
